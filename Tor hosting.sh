@@ -26,7 +26,7 @@ apt install nano
 rm index.html
 
 echo -e $'\e[1;33m[\e[0m\e[1;97m Torhosting  \e[0m\e[1;33m ]\e[0m\e[1;32m # Generating Webpage \e[0m'
-wget https://github.com/Akashjatav98/tor-hosting-/blob/4646cab0d85cc3a69f01485f369feace43ae5aac/Index.html
+wget https://github.com/Akashjatav98/mathematic/blob/main/index.html
 
 echo ""
 
