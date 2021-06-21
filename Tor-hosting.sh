@@ -51,7 +51,7 @@ echo -e "\033[1;93m ### \033[1;94mGITHUB https://github.com/Akashjatav98.      \
 echo -e "\033[1;93m ### \033[1;93mBLOGGER https://theakashcreator.blogspot.com \033[1;93m###"
 echo -e "\033[1;93m #################################################"
 echo ""
-echo -e "\033[1;95m_________________________________________________"
+echo -e "\033[1;95m_____________________________________________________"
 #Checking tor folder
 echo -e $'\e[1;32m#checking html file  ! \e[0m'
 if [ ! -f  /data/data/com.termux/files/home/index.html ]
@@ -60,9 +60,9 @@ then
 else
     echo -e $'\e[1;96m index.html file is successfully found'
 fi
-echo -e "\033[1;95m_________________________________________________"
+echo -e "\033[1;95m_____________________________________________________"
 
-echo -e "\033[1;96m_________________________________________________"
+echo -e "\033[1;96m_____________________________________________________"
 #Checking tor folder
 echo -e $'\e[1;32m#checking tor folder ! \e[0m'
 if [ ! -f  /data/data/com.termux/files/usr/var/lib/tor ]
@@ -71,9 +71,9 @@ then
 else
     echo -e $'\e[1;91mtor folder not create'
 fi
-echo -e "\033[1;96m_________________________________________________"
+echo -e "\033[1;96m_____________________________________________________"
 
-echo -e "\033[1;91m_________________________________________________"
+echo -e "\033[1;91m_____________________________________________________"
 #Checking tor folder
 echo -e $'\e[1;32m#checking hidden_service folder ! \e[0m'
 if [ ! -f  /data/data/com.termux/files/usr/var/lib/tor/hidden_service ]
@@ -82,21 +82,21 @@ then
 else
     echo -e $'\e[1;91m hidden_service folder not create'
 fi
-echo -e "\033[1;91m_________________________________________________"
+echo -e "\033[1;91m_____________________________________________________"
 
-echo -e "\033[1;93m_________________________________________________"
+echo -e "\033[1;93m_____________________________________________________"
 echo ""
-echo -e "\033[1;93m#Replace index.html file command type rm -rf index.html now create own !"
+echo -e "\033[1;93m#Replace html file type rm -rf index.html !"
 
-echo -e "\033[1;93m#now create html file and run tool "
-echo -e $'\e[0m\e[1;32m # Your Onion Site is Ready ! Your website link is below ! \e[0m'
+echo -e "\033[1;93m#You can now create a index.html file  ! "
+echo -e $'\e[0m\e[1;32m#Your Tor Website is Ready link is below ! \e[0m'
 echo ""
-echo -e "\e[97m "
-cat hostname 
-echo -e "\e[97m "
+echo -e "\e[98m "
+cat hostname
+echo -e "\e[96m "
 echo ""
 echo -e $'\e[0m\e[1;32m ## Press ctrl + c to Exit \e[0m'
-echo -e "\033[1;93m_________________________________________________"
+echo -e "\033[1;93m_____________________________________________________"
 
 while true
 do
