@@ -44,12 +44,12 @@ echo -e "\033[1;93m ‎"
 figlet -f slant  Tor hosting
 sleep 1
 echo ""
-echo -e "\033[1;93m ############################################################"
+echo -e "\033[1;93m #################################################"
 echo -e "\033[1;93m ### \033[1;92mFOLLOW ME ON INSTAGRAM ID @AKASH JATAV98     \033[1;93m###"
 echo -e "\033[1;93m ### \033[1;95mAUTHOR TOOL CREATED BY AKASH JATAV           \033[1;93m###"
-echo -e "\033[1;93m ### \033[1;90mGITHUB https://github.com/Akashjatav98.      \033[1;93m###"
-echo -e "\033[1;93m ##  \033[1;93mBLOGGER https://theakashcreator.blogspot.com \033[1;93m###"
-echo -e "\033[1;93m ############################################################"
+echo -e "\033[1;93m ### \033[1;94mGITHUB https://github.com/Akashjatav98.      \033[1;93m###"
+echo -e "\033[1;93m ### \033[1;93mBLOGGER https://theakashcreator.blogspot.com \033[1;93m###"
+echo -e "\033[1;93m #################################################"
 echo ""
 echo -e "\033[1;95m_________________________________________________"
 #Checking tor folder
@@ -91,9 +91,9 @@ echo -e "\033[1;93m#Replace index.html file command type rm -rf index.html now c
 echo -e "\033[1;93m#now create html file and run tool "
 echo -e $'\e[0m\e[1;32m # Your Onion Site is Ready ! Your website link is below ! \e[0m'
 echo ""
-echo -e "\e[91m "
-echo -e "\e[1;96mcat hostname "
-echo -e "\e[39m "
+echo -e "\e[97m "
+cat hostname 
+echo -e "\e[97m "
 echo ""
 echo -e $'\e[0m\e[1;32m ## Press ctrl + c to Exit \e[0m'
 echo -e "\033[1;93m_________________________________________________"
