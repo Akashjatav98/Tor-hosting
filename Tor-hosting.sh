@@ -1,11 +1,11 @@
 #!bin/bash
 #Creator by Akash Jatav                                               #Don't copy script
-                                                                      echo -e $'\033[1;95m## Tor installation ! \e[0m'
-apt update                                                            apt upgrade
-apt install wget                                                      pkg update
-pkg upgrade                                                           apt install tor -y
+echo -e $'\033[1;95m## Tor installation ! \e[0m'                                               
+     
+apt install tor -y
 apt install wget -y                                                   apt install php -y
 apt install nano
+pkg update  
 
 echo ""
 
