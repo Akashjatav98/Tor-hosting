@@ -44,18 +44,13 @@ echo -e "\033[1;93m ‎"
 figlet -f slant  Tor hosting
 sleep 1
 echo ""
-echo -e "   \033[1;91m  Author   \033[1;90m: \033[1;95mAkash jatav"
-echo -e "   \033[1;93m  Blog     \033[1;90m: \033[1;96mTheakashcreator.blogspot.com"
-echo -e "   \033[1;92m  Instagram\033[1;90m: \033[1;94mAkash jatav98"
-echo -e "   \033[1;97m  Github   \033[1;90m: \033[1;93mgithub.com/akashjatav98"
+echo -e "\033[1;93m ############################################################"
+echo -e "\033[1;93m ### \033[1;92mFOLLOW ME ON INSTAGRAM ID @AKASH JATAV98     \033[1;93m###"
+echo -e "\033[1;93m ### \033[1;95mAUTHOR TOOL CREATED BY AKASH JATAV           \033[1;93m###"
+echo -e "\033[1;93m ### \033[1;90mGITHUB https://github.com/Akashjatav98.      \033[1;93m###"
+echo -e "\033[1;93m ##  \033[1;93mBLOGGER https://theakashcreator.blogspot.com \033[1;93m###"
+echo -e "\033[1;93m ############################################################"
 echo ""
-echo -e ""
-echo ""
-echo -e "\033[1;93m ##############################"
-echo -e "\033[1;93m ### FOLLOW ME ON INSTAGRAM ###"
-echo -e "\033[1;93m ###    ID AKASH JATAV98.   ###"
-echo -e "\033[1;93m ##############################"
-
 echo -e "\033[1;95m_________________________________________________"
 #Checking tor folder
 echo -e $'\e[1;32m#checking html file  ! \e[0m'
@@ -63,7 +58,7 @@ if [ ! -f  /data/data/com.termux/files/home/index.html ]
 then
     echo -e $'\e[1;91m Please create index.html file '
 else
-    echo -e $'\e[1;96m html.index file is successfully found'
+    echo -e $'\e[1;96m index.html file is successfully found'
 fi
 echo -e "\033[1;95m_________________________________________________"
 
@@ -91,17 +86,16 @@ echo -e "\033[1;91m_________________________________________________"
 
 echo -e "\033[1;93m_________________________________________________"
 echo ""
-echo ""
-echo -e "\033[1;93m#index.html file replace command "
-echo -e "\033[1;93m$ rm -rf index.html "
+echo -e "\033[1;93m#Replace index.html file command type rm -rf index.html now create own !"
+
 echo -e "\033[1;93m#now create html file and run tool "
-echo -e $'\e[1;33m[\e[0m\e[1;77m Tor hosting\e[0m\e[1;33m]\e[0m\e[1;32m # Your Onion Site is Ready !! \e[0m'
+echo -e $'\e[0m\e[1;32m # Your Onion Site is Ready ! Your website link is below ! \e[0m'
 echo ""
 echo -e "\e[91m "
-cat hostname
+echo -e "\e[1;96mcat hostname "
 echo -e "\e[39m "
 echo ""
-echo -e $'\e[1;33m[\e[0m\e[1;77m Tor hosting \e[0m\e[1;33m]\e[0m\e[1;32m ## Press ctrl + c to Exit \e[0m'
+echo -e $'\e[0m\e[1;32m ## Press ctrl + c to Exit \e[0m'
 echo -e "\033[1;93m_________________________________________________"
 
 while true
