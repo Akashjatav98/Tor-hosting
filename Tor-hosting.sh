@@ -2,13 +2,13 @@
 #Creator by Akash Jatav                                               #Don't copy script
 echo -e $'\033[1;95m## Tor installation ! \e[0m'                                               
 
+apt install figlet
 pkg update
 pkg upgrade
 apt install tor -y
 apt install wget -y                                                   apt install php -y
 apt install nano
-figlet -f slant HostOnion
-sleep 1
+
 echo ""
 
 echo ""
@@ -52,6 +52,8 @@ echo ""
 echo -e ""
 echo ""
 
+figlet -f slant Tor hosting
+sleep 1
 echo -e "\033[1;95m_________________________________________________"
 #Checking tor folder
 echo -e $'\e[1;32m#checking html file  ! \e[0m'
