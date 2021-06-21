@@ -52,8 +52,7 @@ echo ""
 echo -e ""
 echo ""
 
-figlet -f slant Tor hosting
-sleep 1
+
 echo -e "\033[1;95m_________________________________________________"
 #Checking tor folder
 echo -e $'\e[1;32m#checking html file  ! \e[0m'
