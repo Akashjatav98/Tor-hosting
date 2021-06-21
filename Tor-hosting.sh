@@ -6,7 +6,8 @@ apt install tor -y
 apt install wget -y                                                   apt install php -y
 apt install nano
 pkg update  
-
+figlet -f slant HostOnion
+sleep 1
 echo ""
 
 echo ""
