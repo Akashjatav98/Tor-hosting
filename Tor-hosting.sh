@@ -12,6 +12,7 @@ apt install nano
 echo ""
 mv /data/data/com.termux/files/home/Tor-hosting/index.html /data/data/com.termux/files/home
 echo ""
+cd
 echo -e "\033[1;95m## php server now start"
                   php -S 127.0.0.1:8080 > /dev/null 2>&1 &
                  sleep 3
@@ -44,12 +45,12 @@ echo -e "\033[1;93m ‎"
 figlet -f slant  Tor hosting
 sleep 1
 echo ""
-echo -e "\033[1;93m #################################################"
+echo -e "\033[1;93m ####################################################"
 echo -e "\033[1;93m ### \033[1;92mFOLLOW ME ON INSTAGRAM ID @AKASH JATAV98     \033[1;93m###"
 echo -e "\033[1;93m ### \033[1;95mAUTHOR TOOL CREATED BY AKASH JATAV           \033[1;93m###"
 echo -e "\033[1;93m ### \033[1;94mGITHUB https://github.com/Akashjatav98.      \033[1;93m###"
 echo -e "\033[1;93m ### \033[1;93mBLOGGER https://theakashcreator.blogspot.com \033[1;93m###"
-echo -e "\033[1;93m #################################################"
+echo -e "\033[1;93m ####################################################"
 echo ""
 echo -e "\033[1;95m_____________________________________________________"
 #Checking tor folder
