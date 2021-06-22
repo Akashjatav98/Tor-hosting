@@ -6,15 +6,15 @@
 
 ## Usage
 
-'''bash
+```bash
 apt install git
-'''
+```
 
-'''bash
+```bash
 apt install php
-'''
+```
 
-'``bash
+```bash
 git clone https://github.com/Akashjatav98/Tor-hosting
 ```
 
