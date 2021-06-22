@@ -33,8 +33,8 @@ wget https://raw.githubusercontent.com/Deauthxploit/Nothing_much/main/torrc
 # tor start now
 echo -e $'\e[0m\e[1;32m #  Tor starting now '
 tor &
-sleep 60
-cd /data/data/com.termux/files/usr/var/lib/tor/hidden_service
+
+sleep 17
 
 echo ""
 clear
@@ -93,6 +93,7 @@ echo -e "\033[1;93m#You can now create a index.html file  ! "
 echo -e $'\e[0m\e[1;32m#Your Tor Website is Ready link is below ! \e[0m'
 echo ""
 echo -e "\e[98m "
+cd /data/data/com.termux/files/usr/var/lib/tor/hidden_service
 cat hostname
 echo -e "\e[96m "
 echo ""
