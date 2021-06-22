@@ -9,7 +9,9 @@
 ```bash
 apt install git
 ```
-
+```bash
+apt install wget
+```
 ```bash
 apt install php
 ```
