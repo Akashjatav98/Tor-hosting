@@ -31,4 +31,4 @@ bash Tor-hosting.sh
 *`I will not be responsible for any misuse`
 
 ## Note
-* `This tool is for termux users only!`
+* `This tool is for termux users only !`
