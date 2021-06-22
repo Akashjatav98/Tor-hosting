@@ -1,13 +1,34 @@
-# mathematic
-Create mathmatic table easily
+<h1 align="center">
+<img src="PicsArt_06-22-11.04.41.jpg"><br>
+</h1>
 
-- 👋 Hi, I’m @Akash jatav
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 👍 create a math table easily
-<!---
-Akashjatav98/Akashjatav98 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+
+
+## Usage
+
+'''bash
+apt install git
+'''
+
+'''bash
+apt install php
+'''
+
+'``bash
+git clone https://github.com/Akashjatav98/Tor-hosting
+```
+
+```bash
+cd Tor-hosting
+```
+
+```bash
+bash Tor-hosting.sh
+```
+
+## Disclaimer
+*This tool is for educational purposes only !*<br />
+*I will not be responsible for any misuse*
+
+## Note
+* `This tool is for termux users only!`
