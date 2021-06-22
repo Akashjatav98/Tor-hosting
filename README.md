@@ -27,8 +27,8 @@ bash Tor-hosting.sh
 ```
 
 ## Disclaimer
-*This tool is for educational purposes only !*<br />
-*I will not be responsible for any misuse*
+*`This tool is for educational purposes only !`<br />
+*`I will not be responsible for any misuse`
 
 ## Note
 * `This tool is for termux users only!`
