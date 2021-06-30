@@ -11,6 +11,10 @@ apt install nano
 
 echo ""
 mv /data/data/com.termux/files/home/Tor-hosting/index.html /data/data/com.termux/files/home
+mv /data/data/com.termux/files/home/Tor-hosting/search.html /data/data/com.termux/files/home
+mv /data/data/com.termux/files/home/Tor-hosting/logo.html /data/data/com.termux/files/home
+mv /data/data/com.termux/files/home/Tor-hosting/search2b14.html /data/data/com.termux/files/home
+mv /data/data/com.termux/files/home/Tor-hosting/searchac79.html /data/data/com.termux/files/home
 echo ""
 cd
 echo -e "\033[1;95m## php server now start"
